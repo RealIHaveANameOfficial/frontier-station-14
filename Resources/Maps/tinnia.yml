@@ -1303,6 +1303,8 @@ entities:
     - pos: -2.5,-3.5
       parent: 1
       type: Transform
+    - delay: 999999
+      type: Anchorable
 - proto: BoxBeaker
   entities:
   - uid: 1808
@@ -9717,6 +9719,8 @@ entities:
       pos: -1.5,5.5
       parent: 1
       type: Transform
+    - delay: 999999
+      type: Anchorable
 - proto: KitchenKnife
   entities:
   - uid: 1811
@@ -9736,6 +9740,8 @@ entities:
     - pos: 2.5,5.5
       parent: 1
       type: Transform
+    - delay: 999999
+      type: Anchorable
 - proto: KitchenReagentGrinder
   entities:
   - uid: 187
@@ -11125,6 +11131,8 @@ entities:
     - pos: -3.5,-3.5
       parent: 1
       type: Transform
+    - delay: 999999
+      type: Anchorable
 - proto: SolarPanel
   entities:
   - uid: 410
@@ -12092,6 +12100,8 @@ entities:
     - pos: -3.5,1.5
       parent: 1
       type: Transform
+    - delay: 999999
+      type: Anchorable
 - proto: VendingMachineCigs
   entities:
   - uid: 1468
@@ -12126,6 +12136,8 @@ entities:
     - pos: -4.5,1.5
       parent: 1
       type: Transform
+    - delay: 999999
+      type: Anchorable
 - proto: VendingMachineGames
   entities:
   - uid: 408
