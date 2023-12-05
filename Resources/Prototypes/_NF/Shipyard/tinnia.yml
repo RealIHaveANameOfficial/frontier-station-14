@@ -1,0 +1,25 @@
+- type: gameMap
+  id: Lodge
+  mapName: 'Tinnias Rest'
+  mapPath: /Maps/tinnia.yml
+  minPlayers: 0
+  stations:
+    Tinnia:
+      stationProto: StandardTinniaVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Tinnias Rest'
+
+
+
+
+
+
+
+
+
+
+
+
+
+

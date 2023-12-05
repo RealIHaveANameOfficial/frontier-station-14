@@ -142,6 +142,10 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
                 Offset = _random.NextVector2(1100f, 2800f)
             }))
         {
+            if (_prototypeManager.TryIndex<GameMapPrototype>("Tinnia", out var stationProto))
+            {
+                _station.InitializeNewStation(stationProto.Stations["Tinnia"], depotUid2s);
+            }
             var meta = EnsureComp<MetaDataComponent>(depotUid2s[0]);
             _meta.SetEntityName(depotUid2s[0], "Tinnia's Rest", meta);
             _shuttle.SetIFFColor(depotUid2s[0], factionColor);
