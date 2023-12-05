@@ -5,7 +5,7 @@
   minPlayers: 0
   stations:
     Tinnia:
-      stationProto: StandardTinniaVessel
+      stationProto: StandardFrontierTinnia
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Tinnias Rest'

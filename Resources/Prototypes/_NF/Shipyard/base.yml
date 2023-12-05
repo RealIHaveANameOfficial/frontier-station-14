@@ -39,7 +39,7 @@
     - type: Transform
 
 - type: entity
-  id: StandardTinniaVessel
+  id: StandardFrontierTinnia
   parent:
     - BaseStation
     - BaseStationJobsSpawning
